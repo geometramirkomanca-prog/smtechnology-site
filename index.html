@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SM Technology Service SRL</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="lang.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="logo_nnuovo.png" alt="SM Technology Service SRL" />
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#azienda">Azienda</a></li>
+          <li><a href="#cosa-facciamo">Cosa Facciamo</a></li>
+          <li><a href="#come">Come</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+      <div class="lang-switcher">
+        <button class="lang-btn" id="lang-btn">IT ▾</button>
+        <ul class="lang-dropdown" id="lang-dropdown">
+          <li><a href="index.html" class="active">🇮🇹 IT</a></li>
+          <li><a href="en/index.html">🇬🇧 EN</a></li>
+        </ul>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <img src="hero_new2.JPG" alt="SM Technology Service - Interno stabilimento" class="hero-img" />
+    <div class="hero-overlay">
+      <p style="font-family:'Oswald',sans-serif;font-size:clamp(2rem,4vw,2.7rem);letter-spacing:2px;text-transform:uppercase;color:#7ecbf7;margin-bottom:10px;font-weight:700;">Your Partner in Sealing Technology</p>
+      <p>Impregnazione sottovuoto · Controllo qualità · Granigliatura · Rework</p>
+      <a href="#cosa-facciamo" class="btn-hero">Scopri i nostri servizi</a>
+    </div>
+    <div class="hero-iso">
+      <span class="hero-iso-text">Quality Management System<br>ISO 9001:2015</span>
+      <img src="ISO9001.png" alt="ISO 9001:2015 Certified" class="hero-iso-logo" />
+    </div>
+  </section>
+
+  <!-- SEZIONE AZIENDA -->
+  <section id="azienda" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">La nostra storia</span>
+        <h2>Azienda</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="cf-tabs">
+        <button class="cf-tab active" data-tab="azienda-chisiamo">Chi Siamo</button>
+        <button class="cf-tab" data-tab="azienda-impianti">Impianti di Impregnazione</button>
+        <button class="cf-tab" data-tab="azienda-clienti">Clienti</button>
+        <button class="cf-tab" data-tab="azienda-partner">Partner</button>
+      </div>
+
+      <!-- TAB: CHI SIAMO -->
+      <div class="cf-tab-content active" id="tab-azienda-chisiamo">
+        <div class="azienda-grid">
+          <div class="azienda-text">
+            <p>
+              <strong>SM Technology Service SRL</strong> è una società specializzata nell'erogazione di servizi industriali per il settore <strong>automotive e meccanico</strong>. Forniamo servizi di trattamento e controllo qualità di getti speciali in alluminio destinati ai principali costruttori del comparto automobilistico.
+            </p>
+            <p>
+              Il nostro sito produttivo si trova a <strong>Monteodorisio (CH)</strong>, nella Zona Industriale Valsinello, con una superficie coperta di <strong>1.500 m²</strong> e un'area scoperta di <strong>3.000 m²</strong>, attrezzata con impianti tecnologici di ultima generazione.
+            </p>
+            <p>
+              Operiamo su <strong>3 turni</strong> di produzione con un team strutturato e qualificato, garantendo continuità operativa e risposta rapida alle esigenze dei clienti. La nostra organizzazione prevede figure dedicate alla qualità, alla produzione, alla supply chain e all'amministrazione.
+            </p>
+            <div class="sedi-grid">
+              <div class="sede-box">
+                <h4>Sede Legale</h4>
+                <p>Viale Benedetto Croce 277<br>66100 CHIETI (CH) — ITALIA</p>
+              </div>
+              <div class="sede-box">
+                <h4>Sede Operativa</h4>
+                <p>Zona Industriale Valsinello<br>Contrada Piana della Zingara<br>66050 MONTEODORISIO (CH) — ITALIA</p>
+              </div>
+            </div>
+          </div>
+          <div class="azienda-stats">
+            <div class="stat-card">
+              <span class="stat-number">1.500</span>
+              <span class="stat-label">m² Area Coperta</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3.000</span>
+              <span class="stat-label">m² Area Scoperta</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Turni di Produzione</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Impianti Impregnazione</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Organigramma -->
+        <div class="section-header" style="margin-top:60px; margin-bottom:32px;">
+          <span class="section-tag">Struttura organizzativa</span>
+          <h2 style="font-size:1.8rem;">Organigramma</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="org-grid">
+          <div class="org-card">
+            <div class="org-count">1</div>
+            <div class="org-role">Direttore di Stabilimento</div>
+            <p>Coordinamento generale delle attività operative e strategiche dello stabilimento.</p>
+          </div>
+          <div class="org-card">
+            <div class="org-count">1</div>
+            <div class="org-role">Amministrazione &amp; HR</div>
+            <p>Gestione amministrativa, contabile e delle risorse umane.</p>
+          </div>
+          <div class="org-card">
+            <div class="org-count">1</div>
+            <div class="org-role">Responsabile Qualità</div>
+            <p>Supervisione dei processi di controllo e conformità prodotto.</p>
+          </div>
+          <div class="org-card">
+            <div class="org-count">2</div>
+            <div class="org-role">Resp. Produzione &amp; Manutenzione</div>
+            <p>Gestione degli impianti produttivi e delle attività di manutenzione.</p>
+          </div>
+          <div class="org-card">
+            <div class="org-count">1</div>
+            <div class="org-role">Responsabile Supply Chain</div>
+            <p>Coordinamento della catena di fornitura e della logistica.</p>
+          </div>
+          <div class="org-card">
+            <div class="org-count">12</div>
+            <div class="org-role">Operatori (3 Turni)</div>
+            <p>4 operatori per ciascuno dei 3 turni di produzione continua.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: IMPIANTI DI IMPREGNAZIONE -->
+      <div class="cf-tab-content" id="tab-azienda-impianti">
+        <div class="clienti-intro">
+          <p>Il nostro stabilimento è dotato di impianti automatici di impregnazione di ultima generazione per l'impregnazione sottovuoto di getti speciali in alluminio. Gli impianti garantiscono elevata produttività, ripetibilità del ciclo e la massima qualità del trattamento.</p>
+        </div>
+
+        <div class="impianti-grid">
+          <!-- IMPIANTO 1 -->
+          <div class="impianto-card">
+            <div class="impianto-img">
+              <img src="Capi1.JPG" alt="Impianto automatizzato d'impregnazione CAPI SYSTEM" />
+            </div>
+            <div class="impianto-info">
+              <h3>Impianto automatizzato d'impregnazione CAPI SYSTEM</h3>
+              <p>Impianto robotizzato per l'impregnazione sottovuoto di getti speciali in alluminio. Ciclo completo automatizzato con controllo di processo e braccio robotico per la movimentazione dei cestelli.</p>
+              <ul>
+                <li><strong>Tecnologia:</strong> Impregnazione sottovuoto con resina acrilica</li>
+                <li><strong>Ciclo:</strong> Vuoto → Immersione → Recupero resina → Polimerizzazione</li>
+                <li><strong>Polimerizzazione:</strong> Bagno in acqua calda a 90°C</li>
+                <li><strong>Automazione:</strong> Braccio robotico FANUC integrato</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- IMPIANTO 2 -->
+          <div class="impianto-card">
+            <div class="impianto-img">
+              <img src="Capi2.JPG" alt="Impianto automatizzato d'impregnazione CAPI SYSTEM" />
+            </div>
+            <div class="impianto-info">
+              <h3>Impianto automatizzato d'impregnazione CAPI SYSTEM</h3>
+              <p>Impianto robotizzato per l'impregnazione sottovuoto di getti speciali in alluminio. Ciclo completo automatizzato con controllo di processo e braccio robotico per la movimentazione dei cestelli.</p>
+              <ul>
+                <li><strong>Marchio:</strong> CAPI (impianto certificato)</li>
+                <li><strong>Tecnologia:</strong> Impregnazione sottovuoto automatica</li>
+                <li><strong>Resina:</strong> Acrilica termoindurente catalizzata</li>
+                <li><strong>Vuoto:</strong> Fino a &lt;5 mbar per penetrazione ottimale</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- GALLERY IMPIANTO 2 -->
+          <div class="impianto-gallery">
+            <div class="gallery-img">
+              <img src="CAPI3.JPG" alt="Impianto automatico di impregnazione con carroponte e carico/scarico laterale" />
+              <span class="gallery-caption">Impianto automatico di impregnazione con carroponte e carico/scarico laterale</span>
+            </div>
+            <div class="gallery-img">
+              <img src="CAPI4.JPG" alt="Impianto automatico di impregnazione con carroponte e carico/scarico laterale" />
+              <span class="gallery-caption">Impianto automatico di impregnazione con carroponte e carico/scarico laterale</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="impianti-features">
+          <div class="impianto-feature">
+            <span class="feature-icon">&#9670;</span>
+            <div>
+              <h4>Ciclo Completamente Automatico</h4>
+              <p>Vuoto secco, vuoto umido, pressurizzazione, sgocciolamento, lavaggio e polimerizzazione gestiti senza intervento manuale.</p>
+            </div>
+          </div>
+          <div class="impianto-feature">
+            <span class="feature-icon">&#9670;</span>
+            <div>
+              <h4>Resine Certificate</h4>
+              <p>Resine acriliche metacriliche approvate per settore automotive, aerospaziale, gas, idraulico e alimentare.</p>
+            </div>
+          </div>
+          <div class="impianto-feature">
+            <span class="feature-icon">&#9670;</span>
+            <div>
+              <h4>Doppia Capacità Produttiva</h4>
+              <p>Due impianti in parallelo garantiscono continuità operativa su 3 turni e capacità di risposta rapida anche per lotti ad alto volume.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: CLIENTI -->
+      <div class="cf-tab-content" id="tab-azienda-clienti">
+        <div class="clienti-intro">
+          <p>I nostri clienti sono i principali costruttori del settore automotive e meccanico. La fiducia di questi partner industriali è il risultato della costanza nella qualità, della puntualità nelle consegne e della capacità di risposta a ogni esigenza produttiva.</p>
+        </div>
+        <div class="clienti-grid">
+          <div class="cliente-card"><div class="cliente-logo-placeholder">STELLANTIS</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">TEKSID ALUMINUM</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">HONDA</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">CNH INDUSTRIAL</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">GETRAG</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">LA.ME.S.</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">SIRPRESS</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">PIERBURG PUMP TECHNOLOGY ITALY</div></div>
+          <div class="cliente-card"><div class="cliente-logo-placeholder">TEKAL</div></div>
+        </div>
+      </div>
+
+      <!-- TAB: PARTNER -->
+      <div class="cf-tab-content" id="tab-azienda-partner">
+        <div class="clienti-intro">
+          <p>Lavoriamo con partner tecnologici selezionati che condividono la nostra visione di qualità e innovazione. Queste collaborazioni ci permettono di offrire soluzioni complete e all'avanguardia nel trattamento dei getti in alluminio.</p>
+        </div>
+        <div class="clienti-grid">
+          <div class="cliente-card">
+            <div class="cliente-logo-placeholder">CAPI</div>
+            <span class="cliente-sede">Impianti di Impregnazione</span>
+          </div>
+          <div class="cliente-card">
+            <a href="https://www.godfreywing.com/" target="_blank" rel="noopener noreferrer">
+              <img src="G&W_logo e collegamento sito.png" alt="Godfrey & Wing Inc." class="partner-logo" />
+            </a>
+            <span class="cliente-sede">Vacuum Impregnation Solutions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE COSA FACCIAMO -->
+  <section id="cosa-facciamo" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">I nostri servizi</span>
+        <h2>Cosa Facciamo</h2>
+        <div class="divider"></div>
+      </div>
+
+      <!-- TAB NAVIGATION -->
+      <div class="cf-tabs">
+        <button class="cf-tab active" data-tab="processo">Processo</button>
+        <button class="cf-tab" data-tab="servizi">Servizi</button>
+        <button class="cf-tab" data-tab="industrie">Industrie</button>
+      </div>
+
+      <!-- TAB: PROCESSO -->
+      <div class="cf-tab-content active" id="tab-processo">
+        <div class="processo-steps">
+          <div class="processo-step">
+            <div class="step-number">01</div>
+            <div class="step-body">
+              <h3>Ricevimento e Accettazione</h3>
+              <p>I getti in alluminio vengono ricevuti e sottoposti a controllo di accettazione con verifiche visive e dimensionali. Ogni lotto viene tracciato e registrato prima di accedere alla linea produttiva.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">02</div>
+            <div class="step-body">
+              <h3>Granigliatura e Sbavatura</h3>
+              <p>I getti vengono sottoposti a granigliatura per la pulizia superficiale e a sbavatura per l'eliminazione di bave residue di fusione, garantendo la corretta preparazione superficiale per i trattamenti successivi.</p>
+            </div>
+          </div>
+          <!-- INTRODUZIONE IMPREGNAZIONE -->
+          <div class="processo-intro">
+            <h3>Impregnazione Sottovuoto</h3>
+            <p>L'impregnazione sottovuoto è il processo di sigillatura delle microporosità presenti nei getti metallici (pressofusi, colati in conchiglia, sinterizzati) per renderli stagni alla pressione, senza alterarne le caratteristiche dimensionali e superficiali. Le microporosità si formano durante la solidificazione del metallo e si distinguono in tre categorie: <strong>porosità chiusa</strong> (non accessibile alla resina), <strong>porosità cieca</strong> (parte dalla superficie e causa difetti estetici dopo trattamenti galvanici) e <strong>porosità passante</strong> (la più dannosa, causa trafilamenti e perdite in componenti come idroguide, blocchi motore, pompe olio, scatole cambio e valvole gas).</p>
+            <p>Il processo utilizza resine acriliche termoindurenti catalizzate, con vuoto fino a &lt;5 mbar, immersione in resina, penetrazione a pressione atmosferica, lavaggio in acqua e polimerizzazione a 90°C.</p>
+          </div>
+
+          <!-- FASI DEL CICLO DI IMPREGNAZIONE -->
+          <div class="processo-step">
+            <div class="step-number">03</div>
+            <div class="step-body">
+              <h3>Fase 1 — Vuoto Secco</h3>
+              <p>I pezzi vengono inseriti in autoclave e sottoposti a vuoto (5–3 mbar) per estrarre l'aria contenuta all'interno delle porosità, preparando i canali per l'ingresso della resina.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">04</div>
+            <div class="step-body">
+              <h3>Fase 2 — Vuoto Umido</h3>
+              <p>La resina viene trasferita nel serbatoio dell'autoclave mantenendo il vuoto. La resina penetra nelle porosità per effetto della depressione, raggiungendo anche i canali più profondi.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">05</div>
+            <div class="step-body">
+              <h3>Fase 3 — Pressione</h3>
+              <p>L'autoclave viene pressurizzata per favorire la penetrazione ottimale della resina in tutte le porosità. Al termine, la resina in eccesso viene recuperata e reimmessa nel serbatoio.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">06</div>
+            <div class="step-body">
+              <h3>Fase 4 — Sgocciolamento</h3>
+              <p>Il cestello di carico viene estratto e sottoposto a rotazione con fermate intermittenti per recuperare la resina in eccesso dalla superficie dei pezzi.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">07</div>
+            <div class="step-body">
+              <h3>Fase 5 — Lavaggio e Risciacquo</h3>
+              <p>I pezzi vengono lavati in due fasi con detergenti specifici a temperatura controllata per rimuovere i residui di resina dalla superficie. Per fori ciechi o filettature di piccolo diametro viene applicata una procedura speciale di pulizia.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">08</div>
+            <div class="step-body">
+              <h3>Fase 6 — Polimerizzazione</h3>
+              <p>La resina polimerizza a 90°C trasformandosi in un corpo solido, elastico e inerte che sigilla permanentemente le porosità. Dopo il raffreddamento, i pezzi possono essere sottoposti a test di tenuta o utilizzati direttamente.</p>
+            </div>
+          </div>
+
+          <!-- FASI SUCCESSIVE -->
+          <div class="processo-step">
+            <div class="step-number">09</div>
+            <div class="step-body">
+              <h3>Controllo di Conformità</h3>
+              <p>Ogni pezzo è sottoposto a controlli sistematici: controlli visivi, per attributi (pass/fail) e per variabili (misurazioni dimensionali). La conformità viene verificata rispetto alle specifiche tecniche del cliente.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">10</div>
+            <div class="step-body">
+              <h3>Attività di Rework</h3>
+              <p>I pezzi che presentano porosità superficiale non coperta dall'impregnazione vengono trattati con resina acrilica in modalità manuale. La polimerizzazione avviene tramite lampada UV per un risultato rapido e certificato.</p>
+            </div>
+          </div>
+          <div class="processo-step">
+            <div class="step-number">11</div>
+            <div class="step-body">
+              <h3>Spedizione e Tracciabilità</h3>
+              <p>I prodotti conformi vengono imballati e spediti ai clienti con tutta la documentazione di qualità. La tracciabilità di ogni lotto è garantita dalla ricezione alla consegna.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: SERVIZI -->
+      <div class="cf-tab-content" id="tab-servizi">
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="2"/>
+                <circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M32 10 L32 22 M32 42 L32 54 M10 32 L22 32 M42 32 L54 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Impregnazione Sottovuoto</h3>
+            <p>Sigillatura delle microporosità di getti speciali in alluminio tramite ciclo automatico con resina acrilica. 2 impianti CAPI per garantire capacità produttiva elevata e continuità del servizio.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="18" width="44" height="30" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M22 14 L22 18 M32 14 L32 18 M42 14 L42 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M18 34 L26 26 M38 26 L46 34 M26 26 L38 26 M22 34 L42 34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Controlli di Conformità</h3>
+            <p>Controlli sistematici del prodotto: visivi, per attributi (pass/fail) e per variabili (misurazioni dimensionali). Emissione di report di conformità per ogni lotto di produzione.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 52 L52 52 M12 52 L12 28 M52 52 L52 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M20 52 L20 36 L32 24 L44 36 L44 52" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="32" cy="18" r="6" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Granigliatura e Sbavatura</h3>
+            <p>Trattamento superficiale di getti colati in alluminio: granigliatura per la pulizia e rimozione degli ossidi, sbavatura per l'eliminazione delle bave di fusione e la corretta finitura superficiale.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="18" stroke="currentColor" stroke-width="2"/>
+                <path d="M24 32 L30 38 L40 26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M32 10 L32 6 M32 58 L32 54 M10 32 L6 32 M58 32 L54 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Attività di Rework</h3>
+            <p>Trattamento manuale delle porosità superficiali mediante resina acrilica con polimerizzazione UV. Intervento mirato per il recupero di pezzi non conformi, riducendo gli scarti e i costi di produzione.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: INDUSTRIE -->
+      <div class="cf-tab-content" id="tab-industrie">
+        <div class="industrie-grid">
+          <div class="industria-card">
+            <div class="industria-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 52 L8 28 L20 20 L20 52" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M20 36 L36 28 L36 52" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M36 40 L52 32 L52 52" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <line x1="4" y1="52" x2="60" y2="52" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Automotive</h3>
+            <p>Settore primario di riferimento. Forniamo servizi di trattamento e controllo qualità di getti in alluminio per i principali costruttori: Stellantis, Honda, CNH Industrial, Getrag.</p>
+          </div>
+          <div class="industria-card">
+            <div class="industria-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="18" width="44" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 28 L54 28" stroke="currentColor" stroke-width="2"/>
+                <circle cx="20" cy="23" r="2" fill="currentColor"/>
+                <circle cx="28" cy="23" r="2" fill="currentColor"/>
+                <rect x="18" y="34" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.8"/>
+                <rect x="36" y="34" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3>Meccanica di Precisione</h3>
+            <p>Trattamento di componenti meccanici in alluminio per applicazioni industriali ad alta precisione: controlli dimensionali, granigliatura e rework specializzato.</p>
+          </div>
+          <div class="industria-card">
+            <div class="industria-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 8 L50 20 L50 44 L32 56 L14 44 L14 20 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <circle cx="32" cy="32" r="8" stroke="currentColor" stroke-width="2"/>
+                <line x1="32" y1="8" x2="32" y2="24" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="32" y1="40" x2="32" y2="56" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="14" y1="32" x2="24" y2="32" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="40" y1="32" x2="50" y2="32" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Componentistica Industriale</h3>
+            <p>Servizi di trattamento superficiale e impregnazione per componentistica industriale in alluminio, con alti volumi produttivi e standard qualitativi certificati.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE COME -->
+  <section id="come" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Il nostro approccio</span>
+        <h2>Come</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="cf-tabs">
+        <button class="cf-tab active" data-tab="come-qualita">Qualità</button>
+        <button class="cf-tab" data-tab="come-schede">Schede Tecniche</button>
+      </div>
+
+      <!-- TAB: QUALITÀ -->
+      <div class="cf-tab-content active" id="tab-come-qualita">
+        <div class="chisiamo-intro">
+          <p>La qualità è il pilastro fondamentale di tutto ciò che facciamo. Ogni processo è progettato per garantire la piena conformità ai requisiti del cliente, con tracciabilità completa del prodotto e documentazione certificata in ogni fase.</p>
+        </div>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="#1a3a5c"/>
+                <path d="M28 38 L36 46 L52 30" stroke="#2d8fd4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Controllo Visivo</h3>
+            <span class="team-role">Ispezione superficiale</span>
+            <p>Verifica visiva sistematica di ogni getto per l'individuazione di difetti superficiali, porosità esterne e non conformità dimensionali evidenti.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="#1a3a5c"/>
+                <rect x="22" y="30" width="36" height="24" rx="3" stroke="#2d8fd4" stroke-width="3"/>
+                <path d="M30 30 L30 24 Q30 20 34 20 L46 20 Q50 20 50 24 L50 30" stroke="#2d8fd4" stroke-width="3"/>
+                <circle cx="40" cy="42" r="5" stroke="#2d8fd4" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3>Controllo per Attributi</h3>
+            <span class="team-role">Pass / Fail</span>
+            <p>Verifica di caratteristiche qualitative di tipo pass/fail secondo le specifiche del cliente: presenza di difetti, conformità geometrica, assenza di porosità post-impregnazione.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="40" fill="#1a3a5c"/>
+                <line x1="20" y1="55" x2="60" y2="55" stroke="#2d8fd4" stroke-width="3" stroke-linecap="round"/>
+                <path d="M30 55 L30 38 M40 55 L40 28 M50 55 L50 44" stroke="#2d8fd4" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Controllo per Variabili</h3>
+            <span class="team-role">Misurazioni dimensionali</span>
+            <p>Misurazioni dimensionali con strumentazione calibrata per la verifica delle quote critiche. Emissione di rapporti di misura e certificati di conformità per ogni lotto.</p>
+          </div>
+        </div>
+        <div class="values-strip">
+          <div class="value-item"><span class="value-icon">&#9670;</span><span>Qualità</span></div>
+          <div class="value-item"><span class="value-icon">&#9670;</span><span>Tracciabilità</span></div>
+          <div class="value-item"><span class="value-icon">&#9670;</span><span>Affidabilità</span></div>
+          <div class="value-item"><span class="value-icon">&#9670;</span><span>Conformità</span></div>
+          <div class="value-item"><span class="value-icon">&#9670;</span><span>Puntualità</span></div>
+        </div>
+      </div>
+
+      <!-- TAB: SCHEDE TECNICHE -->
+      <div class="cf-tab-content" id="tab-come-schede">
+        <div class="chisiamo-intro">
+          <p>Dettagli tecnici dei nostri impianti di impregnazione. I due sistemi automatici CAPI garantiscono elevata produttività, ripetibilità del ciclo e la massima qualità del trattamento sui getti in alluminio.</p>
+        </div>
+        <div class="schede-grid">
+          <div class="scheda-card">
+            <div class="scheda-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="36" height="48" rx="3" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="20" x2="42" y2="20" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="28" x2="42" y2="28" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="36" x2="34" y2="36" stroke="currentColor" stroke-width="2"/>
+                <circle cx="38" cy="44" r="5" stroke="currentColor" stroke-width="2"/>
+                <path d="M38 40 L38 44 L41 47" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Impianto di Impregnazione N° 1</h3>
+            <p>Impianto automatico per l'impregnazione sottovuoto di getti speciali in alluminio. Ciclo completo automatizzato con controllo di processo.</p>
+            <ul>
+              <li>Tecnologia: Impregnazione sottovuoto con resina acrilica</li>
+              <li>Ciclo: Vuoto → Immersione → Recupero resina → Polimerizzazione</li>
+              <li>Polimerizzazione: Bagno in acqua calda</li>
+              <li>Applicazione: Getti in alluminio per automotive</li>
+            </ul>
+            <span class="scheda-tag">Impianto Automatico</span>
+          </div>
+          <div class="scheda-card">
+            <div class="scheda-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="36" height="48" rx="3" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="20" x2="42" y2="20" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="28" x2="42" y2="28" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="36" x2="34" y2="36" stroke="currentColor" stroke-width="2"/>
+                <path d="M36 42 L44 50 M44 42 L36 50" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Impianto di Impregnazione N° 2 — CAPI</h3>
+            <p>Secondo impianto automatico CAPI per garantire continuità produttiva e capacità di trattamento ad alto volume. Completamente integrato con il sistema di tracciabilità aziendale.</p>
+            <ul>
+              <li>Marchio: CAPI (impianto certificato)</li>
+              <li>Tecnologia: Impregnazione sottovuoto automatica</li>
+              <li>Ciclo: Vuoto → Immersione resina → Recupero → Polimerizzazione</li>
+              <li>Resina: Acrilica (per porosità interne e superficiali)</li>
+            </ul>
+            <span class="scheda-tag">Impianto CAPI — Automatico</span>
+          </div>
+          <div class="scheda-card">
+            <div class="scheda-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="36" height="48" rx="3" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="20" x2="42" y2="20" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="28" x2="42" y2="28" stroke="currentColor" stroke-width="2"/>
+                <line x1="22" y1="36" x2="42" y2="36" stroke="currentColor" stroke-width="2"/>
+                <path d="M25 46 L39 46 M32 42 L32 50" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Stazione di Rework UV</h3>
+            <p>Sistema manuale per il trattamento delle porosità superficiali residue. La resina acrilica viene applicata manualmente e polimerizzata con lampada UV per un risultato rapido e durevole.</p>
+            <ul>
+              <li>Metodo: Applicazione manuale resina acrilica</li>
+              <li>Polimerizzazione: Lampada UV</li>
+              <li>Applicazione: Porosità superficiali non trattabili in ciclo automatico</li>
+              <li>Risultato: Recupero pezzi non conformi, riduzione scarti</li>
+            </ul>
+            <span class="scheda-tag">Stazione Rework UV</span>
+          </div>
+        </div>
+
+        <!-- SCHEDE TECNICHE RESINA - DOWNLOAD -->
+        <div class="section-header" style="margin-top:60px; margin-bottom:32px;">
+          <span class="section-tag">Resina di Impregnazione</span>
+          <h2 style="font-size:1.6rem; color:#e8f0f8;">Godfrey &amp; Wing — 95-1000AA</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="download-grid">
+          <a href="TDS-951000AA-TDS-073119.pdf" download class="download-card">
+            <div class="download-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="36" height="48" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M32 28 L32 44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M26 39 L32 45 L38 39" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <h3>Scheda Tecnica (TDS)</h3>
+              <span>Technical Data Sheet — 95-1000AA</span>
+            </div>
+            <span class="download-badge">PDF</span>
+          </a>
+
+          <a href="95-1000AA_SDS GHS EU format 1124.pdf" download class="download-card">
+            <div class="download-icon download-icon-safety">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="36" height="48" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M32 28 L32 44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M26 39 L32 45 L38 39" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="download-info">
+              <h3>Scheda di Sicurezza (SDS)</h3>
+              <span>Safety Data Sheet — GHS/CLP EU</span>
+            </div>
+            <span class="download-badge">PDF</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE CONTATTI -->
+  <section id="contatti" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Siamo qui per te</span>
+        <h2>Contatti</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="contatti-grid">
+        <div class="contatti-info">
+          <h3>SM Technology Service SRL</h3>
+          <ul class="contact-list">
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.8"/>
+                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <div>
+                <strong>Sede Legale</strong>
+                <p>Viale Benedetto Croce 277<br>66100 CHIETI (CH) — ITALIA</p>
+              </div>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.8"/>
+                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <div>
+                <strong>Sede Operativa</strong>
+                <p>Zona Industriale Valsinello<br>Contrada Piana della Zingara<br>66050 MONTEODORISIO (CH) — ITALIA</p>
+              </div>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 13a19.79 19.79 0 01-3.07-8.67A2 2 0 012.86 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <div>
+                <strong>Telefono</strong>
+                <p>+39 000 0000000</p>
+              </div>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.8"/>
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <div>
+                <strong>Email</strong>
+                <p>info@smtechnologyservice.it</p>
+              </div>
+            </li>
+            <li>
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/>
+                <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="1.8"/>
+                <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="1.8"/>
+                <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <div>
+                <strong>Orari</strong>
+                <p>Lun – Ven: 08:00 – 17:30<br>Produzione su 3 turni</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contatti-form">
+          <h3>Richiedi informazioni</h3>
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required />
+              </div>
+              <div class="form-group">
+                <label for="cognome">Cognome *</label>
+                <input type="text" id="cognome" name="cognome" placeholder="Il tuo cognome" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="azienda-form">Azienda</label>
+                <input type="text" id="azienda-form" name="azienda" placeholder="Nome azienda" />
+              </div>
+              <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+39 000 0000000" />
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="email-form">Email *</label>
+              <input type="email" id="email-form" name="email" placeholder="la-tua@email.it" required />
+            </div>
+            <div class="form-group full">
+              <label for="messaggio">Messaggio *</label>
+              <textarea id="messaggio" name="messaggio" rows="5" placeholder="Descrivi la tua richiesta..." required></textarea>
+            </div>
+            <div class="form-group full privacy-check">
+              <label class="checkbox-label">
+                <input type="checkbox" required />
+                <span>Ho letto e accetto la <a href="#">Privacy Policy</a></span>
+              </label>
+            </div>
+            <button type="submit" class="btn-submit">Invia Richiesta</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- MAPPA GOOGLE MAPS -->
+      <div class="contatti-mappa">
+        <h3>Dove Siamo</h3>
+        <div class="mappa-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.5!2d14.3867!3d42.0978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331a7b1c5c6c1c1%3A0x0!2sZona+Industriale+Valsinello%2C+66050+Monteodorisio+CH!5e0!3m2!1sit!2sit!4v1700000000000"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="logo_nnuovo.png" alt="SM Technology Service SRL" />
+      </div>
+      <div class="footer-text">
+        <p>&copy; 2025 SM Technology Service SRL — Sede Legale: Viale Benedetto Croce 277, 66100 Chieti (CH)</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="lang.js"></script>
+</body>
+</html>

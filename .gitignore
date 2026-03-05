@@ -1,0 +1,17 @@
+# Video files (too large for GitHub)
+*.MOV
+*.mov
+*.mp4
+
+# PDF presentations
+Presentazione*.pdf
+SM TECHNOLOGY_relazione.pdf
+CAPILAYOUT.pdf
+
+# Temp files
+.DS_Store
+.claude/
+
+# Old hero images
+hero.JPG
+hero_new.JPG
