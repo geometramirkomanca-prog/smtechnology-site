@@ -53,22 +53,52 @@ document.querySelectorAll('.cf-tab').forEach(tab => {
   });
 });
 
-// Contact form submit placeholder
+// Contact form submission via Web3Forms
 const form = document.getElementById('contact-form');
 if (form) {
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     const btn = form.querySelector('.btn-submit');
-    btn.textContent = 'Richiesta inviata!';
-    btn.style.background = '#1a7a4a';
-    btn.style.borderColor = '#1a7a4a';
+    const originalText = btn.textContent;
+    const isEn = document.documentElement.lang === 'en';
+    btn.textContent = isEn ? 'Sending...' : 'Invio in corso...';
     btn.disabled = true;
-    setTimeout(() => {
-      btn.textContent = 'Invia Richiesta';
-      btn.style.background = '';
-      btn.style.borderColor = '';
-      btn.disabled = false;
-      form.reset();
-    }, 3000);
+
+    const formData = new FormData(form);
+    formData.append('from_name', form.querySelector('#nome').value + ' ' + form.querySelector('#cognome').value);
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    })
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        if (data.success) {
+          btn.textContent = isEn ? 'Request sent!' : 'Richiesta inviata!';
+          btn.style.background = '#1a7a4a';
+          btn.style.borderColor = '#1a7a4a';
+          setTimeout(function() {
+            btn.textContent = originalText;
+            btn.style.background = '';
+            btn.style.borderColor = '';
+            btn.disabled = false;
+            form.reset();
+          }, 3000);
+        } else {
+          throw new Error(data.message);
+        }
+      })
+      .catch(function(error) {
+        console.error('Web3Forms error:', error);
+        btn.textContent = isEn ? 'Error, retry' : 'Errore, riprova';
+        btn.style.background = '#c0392b';
+        btn.style.borderColor = '#c0392b';
+        setTimeout(function() {
+          btn.textContent = originalText;
+          btn.style.background = '';
+          btn.style.borderColor = '';
+          btn.disabled = false;
+        }, 3000);
+      });
   });
 }
