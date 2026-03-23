@@ -887,6 +887,16 @@ ul {
   filter: brightness(0) invert(1);
 }
 
+.footer-social a {
+  color: #5a7a96;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.footer-social a:hover {
+  color: #0a66c2;
+}
+
 .footer-text {
   text-align: right;
 }
