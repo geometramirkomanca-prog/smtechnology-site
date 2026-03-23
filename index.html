@@ -18,9 +18,12 @@
   <meta property="og:locale:alternate" content="en_US" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="lang.css" />
+  <link rel="icon" type="image/webp" href="logo_nnuovo.webp" />
+  <link rel="apple-touch-icon" href="logo_nnuovo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="hero_new2.webp" type="image/webp" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -148,7 +151,10 @@
   <header id="header">
     <div class="header-inner">
       <div class="logo">
-        <img src="logo_nnuovo.png" alt="SM Technology Service SRL" />
+        <picture>
+          <source srcset="logo_nnuovo.webp" type="image/webp" />
+          <img src="logo_nnuovo.png" alt="SM Technology Service SRL - Impregnazione Sottovuoto Automotive" width="250" height="175" />
+        </picture>
       </div>
       <nav class="main-nav">
         <ul>
@@ -173,7 +179,10 @@
 
   <!-- HERO IMAGE -->
   <section class="hero">
-    <img src="hero_new2.JPG" alt="SM Technology Service - Interno stabilimento" class="hero-img" />
+    <picture>
+      <source srcset="hero_new2.webp" type="image/webp" />
+      <img src="hero_new2.JPG" alt="Interno stabilimento SM Technology Service - Impianti di impregnazione sottovuoto per getti in alluminio automotive" class="hero-img" width="1380" height="1009" fetchpriority="high" />
+    </picture>
     <div class="hero-overlay">
       <h1 style="font-family:'Oswald',sans-serif;font-size:clamp(2rem,4vw,2.7rem);letter-spacing:2px;text-transform:uppercase;color:#7ecbf7;margin-bottom:10px;font-weight:700;">Impregnazione Sottovuoto per il Settore Automotive</h1>
       <p style="font-family:'Oswald',sans-serif;font-size:clamp(1rem,2vw,1.35rem);letter-spacing:2px;text-transform:uppercase;color:#7ecbf7;margin-bottom:10px;">Your Partner in Sealing Technology</p>
@@ -182,7 +191,10 @@
     </div>
     <div class="hero-iso">
       <span class="hero-iso-text">Quality Management System<br>ISO 9001:2015</span>
-      <img src="ISO9001.png" alt="ISO 9001:2015 Certified" class="hero-iso-logo" />
+      <picture>
+        <source srcset="ISO9001.webp" type="image/webp" />
+        <img src="ISO9001.png" alt="Certificazione ISO 9001:2015 - SM Technology Service" class="hero-iso-logo" width="200" height="122" />
+      </picture>
     </div>
   </section>
 
@@ -295,7 +307,10 @@
           <!-- IMPIANTO 1 -->
           <div class="impianto-card">
             <div class="impianto-img">
-              <img src="Capi1.JPG" alt="Impianto automatizzato d'impregnazione CAPI SYSTEM" />
+              <picture>
+                <source srcset="Capi1.webp" type="image/webp" />
+                <img src="Capi1.JPG" alt="Impianto automatizzato d'impregnazione sottovuoto CAPI SYSTEM con braccio robotico FANUC" width="1600" height="720" loading="lazy" />
+              </picture>
             </div>
             <div class="impianto-info">
               <h3>Impianto automatizzato d'impregnazione CAPI SYSTEM</h3>
@@ -312,7 +327,10 @@
           <!-- IMPIANTO 2 -->
           <div class="impianto-card">
             <div class="impianto-img">
-              <img src="Capi2.JPG" alt="Impianto automatizzato d'impregnazione CAPI SYSTEM" />
+              <picture>
+                <source srcset="Capi2.webp" type="image/webp" />
+                <img src="Capi2.JPG" alt="Sistema robotizzato CAPI per impregnazione sottovuoto di getti in alluminio" width="1200" height="1600" loading="lazy" />
+              </picture>
             </div>
             <div class="impianto-info">
               <h3>Impianto automatizzato d'impregnazione CAPI SYSTEM</h3>
@@ -329,11 +347,17 @@
           <!-- GALLERY IMPIANTO 2 -->
           <div class="impianto-gallery">
             <div class="gallery-img">
-              <img src="CAPI3.JPG" alt="Impianto automatico di impregnazione con carroponte e carico/scarico laterale" />
+              <picture>
+                <source srcset="CAPI3.webp" type="image/webp" />
+                <img src="CAPI3.JPG" alt="Impianto automatico di impregnazione con carroponte e carico/scarico laterale" width="1600" height="900" loading="lazy" />
+              </picture>
               <span class="gallery-caption">Impianto automatico di impregnazione con carroponte e carico/scarico laterale</span>
             </div>
             <div class="gallery-img">
-              <img src="CAPI4.JPG" alt="Impianto automatico di impregnazione con carroponte e carico/scarico laterale" />
+              <picture>
+                <source srcset="CAPI4.webp" type="image/webp" />
+                <img src="CAPI4.JPG" alt="Secondo impianto automatico di impregnazione sottovuoto con carroponte" width="1600" height="900" loading="lazy" />
+              </picture>
               <span class="gallery-caption">Impianto automatico di impregnazione con carroponte e carico/scarico laterale</span>
             </div>
           </div>
@@ -394,7 +418,10 @@
           </div>
           <div class="cliente-card">
             <a href="https://www.godfreywing.com/" target="_blank" rel="noopener noreferrer">
-              <img src="G&W_logo e collegamento sito.png" alt="Godfrey & Wing Inc." class="partner-logo" />
+              <picture>
+                <source srcset="gw-logo.webp" type="image/webp" />
+                <img src="G&W_logo e collegamento sito.png" alt="Godfrey & Wing Inc. - Partner tecnologico per resine di impregnazione" class="partner-logo" width="300" height="92" loading="lazy" />
+              </picture>
             </a>
             <span class="cliente-sede">Vacuum Impregnation Solutions</span>
           </div>
@@ -825,7 +852,7 @@
               </svg>
               <div>
                 <strong>Telefono</strong>
-                <p>+39 3442917622</p>
+                <p><a href="tel:+393442917622">+39 344 291 7622</a></p>
               </div>
             </li>
             <li>
@@ -920,10 +947,13 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-logo">
-        <img src="logo_nnuovo.png" alt="SM Technology Service SRL" />
+        <picture>
+          <source srcset="logo_nnuovo.webp" type="image/webp" />
+          <img src="logo_nnuovo.png" alt="SM Technology Service SRL" width="250" height="175" loading="lazy" />
+        </picture>
       </div>
       <div class="footer-text">
-        <p>&copy; 2025 SM Technology Service SRL — Sede Legale: Viale Benedetto Croce 277, 66100 Chieti (CH) — P.IVA 02726440692</p>
+        <p>&copy; 2026 SM Technology Service SRL — Sede Legale: Viale Benedetto Croce 277, 66100 Chieti (CH) — P.IVA 02726440692</p>
         <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="cookie-policy.html">Cookie Policy</a></p>
       </div>
     </div>

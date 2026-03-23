@@ -14,11 +14,13 @@
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1.5px;
-  padding: 6px 12px;
+  padding: 10px 14px;
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.2s, border-color 0.2s, color 0.2s;
   white-space: nowrap;
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .lang-btn:hover {
