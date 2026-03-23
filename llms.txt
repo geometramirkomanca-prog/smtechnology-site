@@ -1,0 +1,71 @@
+# SM Technology Service SRL
+
+> Servizi industriali specializzati per il settore automotive: impregnazione sottovuoto, granigliatura, sbavatura, controlli di conformità e rework di getti speciali in alluminio.
+
+## Informazioni Aziendali
+
+- **Ragione Sociale:** SM Technology Service SRL
+- **P.IVA:** 02726440692
+- **Sede Legale:** Viale Benedetto Croce 277, 66100 Chieti (CH), Italia
+- **Sede Operativa:** Zona Industriale Valsinello, Contrada Piana della Zingara, 66050 Monteodorisio (CH), Italia
+- **Telefono:** +39 344 291 7622
+- **Email:** info@smtechnologyservice.it
+- **Sito Web:** https://smtechnologyservice.com
+- **Orari:** Lunedì–Venerdì 08:00–17:30 (produzione su 3 turni)
+- **Certificazione:** ISO 9001:2015
+- **Dipendenti:** 18
+- **Superficie coperta:** 1.500 m²
+- **Superficie scoperta:** 3.000 m²
+
+## Servizi
+
+### Impregnazione Sottovuoto
+Sigillatura delle microporosità di getti speciali in alluminio tramite ciclo automatico con resina acrilica termoindurente Godfrey & Wing 95-1000AA. 2 impianti automatici CAPI con braccio robotico FANUC. Vuoto fino a meno di 5 mbar, polimerizzazione a 90°C. Il processo in 11 fasi comprende: ricevimento, granigliatura, carico, vuoto secco, vuoto umido, pressione, sgocciolamento, lavaggio, polimerizzazione, scarico e controllo finale.
+
+### Granigliatura e Sbavatura
+Trattamento superficiale di getti colati in alluminio: granigliatura per la pulizia e rimozione degli ossidi, sbavatura per eliminazione delle bave di fusione e corretta finitura superficiale.
+
+### Controlli di Conformità
+Controlli sistematici del prodotto: visivi, per attributi (pass/fail) e per variabili (misurazioni dimensionali). Emissione di report di conformità per ogni lotto di produzione.
+
+### Ispezioni Dimensionali
+Verifiche dimensionali con strumenti calibrati per garantire la conformità alle specifiche del cliente e agli standard di qualità automotive.
+
+### Attività di Rework UV
+Trattamento manuale delle porosità superficiali mediante resina acrilica con polimerizzazione UV. Intervento mirato per il recupero di pezzi non conformi, riducendo gli scarti e i costi di produzione.
+
+## Clienti Principali
+
+- Stellantis
+- Honda
+- CNH Industrial
+- Getrag
+- Teksid Aluminum
+- Pierburg
+
+## Settori Serviti
+
+- Automotive (componentistica motore, scatole cambio, pompe olio)
+- Meccanica di Precisione
+- Componentistica Industriale
+
+## Partner Tecnologici
+
+- **CAPI Systems** — Impianti automatici di impregnazione sottovuoto
+- **Godfrey & Wing Inc.** — Resine acriliche per impregnazione (95-1000AA)
+- **FANUC** — Braccio robotico per automazione carico/scarico
+
+## Tipi di Porosità Trattate
+
+1. **Porosità chiusa** — Interna al getto, non passante
+2. **Porosità cieca** — Aperta da un solo lato
+3. **Porosità passante** — Attraversa l'intero spessore del getto, causando perdite di fluidi/gas
+
+## Dati Tecnici del Processo
+
+- Resina: acrilica metacrilica termoindurente
+- Vuoto: inferiore a 5 mbar
+- Pressione: ciclo automatico controllato
+- Temperatura di polimerizzazione: 90°C
+- Capacità: 2 impianti CAPI in parallelo
+- Tracciabilità: completa per ogni lotto

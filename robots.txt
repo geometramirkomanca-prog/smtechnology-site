@@ -1,28 +1,37 @@
+# Motori di ricerca tradizionali
 User-agent: *
 Allow: /
 
-User-agent: ClaudeBot
-Disallow: /
-
+# AI Search Crawlers - CONSENTITI per visibilita in AI Overviews, ChatGPT Search, Perplexity, Claude
 User-agent: GPTBot
-Disallow: /
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
-User-agent: Amazonbot
-Disallow: /
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 User-agent: Applebot-Extended
+Allow: /
+
+# AI Training-Only Crawlers - BLOCCATI (solo training, non search)
+User-agent: CCBot
 Disallow: /
 
 User-agent: Bytespider
 Disallow: /
 
-User-agent: CCBot
+User-agent: meta-externalagent
 Disallow: /
 
-User-agent: meta-externalagent
+User-agent: Amazonbot
 Disallow: /
 
 User-agent: CloudflareBrowserRenderingCrawler
